@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Beautiful HTML Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333333;
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 0;
+    }
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #333333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #ff6600;
+    }
+
+    .slide-up {
+      animation-name: slideUp;
+      animation-duration: 1s;
+    }
+    @keyframes slideUp {
+      from {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity:1;
+      }
+    }
+
+    .span1{
+
+      margin-top: 50px;
+      width: 600px;
+      height: 10px;
+      background-color: #004dcb;
+    }
+
+
+    .button-container {
+      display: flex;
+    }
+
+    .button {
+      background-color: #4CAF50; /* 按钮背景颜色 */
+      border: none;
+      width: 200px;
+      color: white; /* 文本颜色 */
+      padding: 15px; /* 按钮内边距 */
+      text-align: center;
+
+      /* 将所有按钮连接到一起 */
+    }
+
+  </style>
+
+</head>
+<body>
+
+</div><div class="span1"></div>
+<header>
+  <h1>小说</h1>
+</header>
+
+<section >
+  <div class="slide-up">
+    <p>This is a simple HTML page that demonstrates how to create a good-looking webpage using basic HTML and CSS.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam euismod nunc euismod, tincidunt enim at, bibendum tortor. Sed et feugiat massa. Ut quis turpis eu est eleifend vehicula. Aenean vitae nibh quis nulla suscipit sagittis vel vel nisi. Sed congue, augue a lacinia placerat, tellus lectus luctus risus, quis pulvinar quam libero ac orci. </p>
+    <p>For more information, please visit our <a href="#">website</a>.</p>
+  </div>
+
+  <div class="button-container">
+    <a href="#" class="button">按钮1</a>
+    <a href="#" class="button">按钮2</a>
+    <a href="#" class="button">按钮3</a>
+  </div>
+
+</section>
+
+</body>
+</html>
